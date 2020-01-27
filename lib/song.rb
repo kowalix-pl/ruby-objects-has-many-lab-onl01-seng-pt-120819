@@ -14,7 +14,12 @@ attr_accessor :name, :artist
   #binding.pry 
  
  def artist_name
-   self.artist.name
+
+   if self.author == nil 
+     return nil 
+   else 
+     self.artist.name
+ end
  end
  
  def song
