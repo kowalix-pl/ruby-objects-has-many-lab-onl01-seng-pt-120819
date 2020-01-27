@@ -19,7 +19,6 @@ attr_accessor :name, :artist
      return nil 
    else 
      self.artist.name
-     binding.pry
  end
  end
  
