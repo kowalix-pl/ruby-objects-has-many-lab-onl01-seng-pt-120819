@@ -22,5 +22,5 @@ class Post
    else 
      post.author
  end
-
+end
 end
